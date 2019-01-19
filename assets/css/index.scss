@@ -1,0 +1,15 @@
+//utils
+@import './utils/_var';
+@import './utils/_mixin';
+
+//vender
+@import "./vender/semantic.css";
+@import "./vender/animate.css";
+@import "./vender/swiper.min.css";
+
+//base
+@import "base/_font";
+@import "base/_reset";
+
+//page
+@import "pages/_index";

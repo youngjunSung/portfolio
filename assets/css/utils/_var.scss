@@ -1,0 +1,54 @@
+/**
+ * Created by Eunjin Yang on 2018. 3. 17.
+ * Corp : Kstar Group
+ * Github : http://github.com/jinny920311
+ */
+
+$black: #000000;
+$dnavy: #282d36; //헤드 (제목 등) : 짙은 네이비 기본컬러
+$white: #ffffff;
+$purple: #6b58a7; //포인트컬러 브랜드컬러(보라색)
+$lpurple: #745ad7; //kstar 2.5 포인트컬러(보라색)
+$grey: #454545; //본문에 주로 사용 짙은 회색
+$lgrey: #838383; //옅은 회색(light grey)
+$red: #f74242; //경고,오류등에 사용되는 빨간색
+$pink: #f466ba; //상품상세페이지 이벤트버튼
+
+$event-color: #4c0489; //스폰서데이 이벤트 페이지 포인트컬러(보라색)
+
+$disable-color: #c7c7c7; //비활성화 색
+
+$border-color: #c6c6c6 !default;
+$check-border-color: #838383 !default;
+$placeholder-color: #c5c5c5 !default;
+
+
+//폰트
+$korea: 'Noto Sans KR', sans-serif;
+$china: 'cwTeXHei', 'Noto Sans SC',  sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+//break point
+$breakpoints: (
+  '1250': (max-width: 1250px),
+  '1000': (max-width: 1000px),
+  '900': (max-width: 900px),
+  '765': (max-width: 765px),
+  '700': (max-width: 700px),
+  '600': (max-width: 600px),
+  '500': (max-width: 500px),
+  '450': (max-width: 450px),
+  '400': (max-width: 400px),
+  '350': (max-width: 350px),
+) !default;
+
+/*
+Scss 에서 사용법
+@include respond-to('500') {
+  color: blue;
+}
+*/
+
+//자주사용하는 변수
+$nor: no-repeat; //background-repeat: no-repeat;
+$center: 50% 50%; //background-position: 50% 50%;

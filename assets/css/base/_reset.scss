@@ -1,0 +1,134 @@
+/**
+ * Created by Eunjin Yang on 2018. 3. 17.
+ * Corp : Kstar Group
+ * Github : http://github.com/jinny920311
+ */
+
+//PC,MO 반응형
+html, body {
+  position: relative;
+  font-size: 18px;
+  height: 100%;
+}
+
+//모바일 전용
+/*html, body {
+  font-size: 30px;
+  @media all and (max-width: 900px) {
+    font-size: 25px;
+  }
+  @media all and (max-width: 720px) {
+    font-size: 20px;
+  }
+  @media all and (max-width: 648px) {
+    font-size: 18px;
+  }
+  @media all and (max-width: 576px) {
+    font-size: 16px;
+  }
+  @media all and (max-width: 504px) {
+    font-size: 14px;
+  }
+  @media all and (max-width: 432px) {
+    font-size: 12px;
+  }
+  @media all and (max-width: 360px) {
+    font-size: 10px;
+  }
+}*/
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body, body * {
+  font-family: 'Noto Sans CJK KR', sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:link {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+strong {
+  color: inherit;
+  font-size: inherit;
+}
+
+i {
+  font-style: normal;
+}
+
+b {
+  font-weight: normal;
+  font-size: inherit;
+}
+
+::-webkit-input-placeholder {
+  color:  #aaaaaa;
+}
+
+::-moz-placeholder {
+  color:  #aaaaaa;
+}
+
+:-ms-input-placeholder {
+  color:  #aaaaaa;
+}
+
+:-moz-placeholder {
+  color:  #aaaaaa;
+}
+
+
+.hidden_tit {
+  position: absolute;
+  left: -9999px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+button{
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  *overflow: visible;
+}
