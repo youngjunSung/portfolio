@@ -9,6 +9,18 @@ html, body {
   position: relative;
   font-size: 18px;
   height: 100%;
+  @media all and (max-width: 700px) {
+    font-size: 16px;
+  }
+  @media all and (max-width: 500px) {
+    font-size: 14px;
+  }
+  @media all and (max-width: 400px) {
+    font-size: 12px;
+  }
+  @media all and (max-width: 320px) {
+    font-size: 10px;
+  }
 }
 
 //모바일 전용
