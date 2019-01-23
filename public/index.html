@@ -97,7 +97,7 @@
 							<img src="./assets/images/images/icon_06.png" alt="">
 						</div>
 						<div class="img-box c-pc"></div>
-						<a href="javascript:void(0);" target="_blank" onclick="alert('It is almost done. Please wait a little longer!')" class="ui primary basic button view-btn"><i class="eye icon"></i>View</a>
+						<a href="https://condeal-mo-82768.firebaseapp.com/pc/" target="_blank" class="ui primary basic button view-btn"><i class="eye icon"></i>View</a>
 					</div>
 				</li>
 				<li class="swiper-slide">
@@ -125,7 +125,7 @@
 							<img src="./assets/images/images/icon_09.png" alt="">
 						</div>
 						<div class="img-box c-mo"></div>
-						<a href="https://condeal-mo-82768.firebaseapp.com/" target="_blank" class="ui primary basic button view-btn"><i class="eye icon"></i>View</a>
+						<a href="https://condeal-mo-82768.firebaseapp.com/mo/" target="_blank" class="ui primary basic button view-btn"><i class="eye icon"></i>View</a>
 					</div>
 				</li>
 				<li class="swiper-slide">
@@ -242,7 +242,7 @@
 		<script>
 		$(function () {
 			var mainSwiper = new Swiper('.swiper-main', {
-				loop: true,
+				loop: false,
 				slidesPerView: 3,
 		  	slidesPerGroup: 3,
 				spaceBetween: 30,
@@ -262,32 +262,32 @@
 				},
 				breakpoints: {
 					1220: {
+			  		loop: false,
 						slidesPerView: 2,
 			  		slidesPerGroup: 1,
 						spaceBetween: 30,
 			  		centeredSlides: true,
-						loopAdditionalSlides: 3,
 					},
 					700: {
+			  		loop: false,
 						slidesPerView: 1.3,
 						slidesPerGroup: 1,
 						spaceBetween: 10,
 						centeredSlides: true,
-						loopAdditionalSlides: 3,
 					},
 					500: {
+						loop: false,
 						slidesPerView: 1.3,
 						slidesPerGroup: 1,
 						spaceBetween: 10,
 						centeredSlides: true,
-						loopAdditionalSlides: 3,
 					},
 					400: {
+			  		loop: false,
 						slidesPerView: 1.3,
 						slidesPerGroup: 1,
 						spaceBetween: 10,
 						centeredSlides: true,
-						loopAdditionalSlides: 3,
 					}
 				}
 			});
