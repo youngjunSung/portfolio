@@ -36,21 +36,9 @@
         color: #555;
 				font-weight: 300;
         font-size: .8rem;
-				&:after {
-					content: '';
-					position: absolute;
-					width: 100%;
-					transform: scaleX(0);
-					height: .12rem;
-					bottom: -.25rem;
-					left: 0;
-					background-color: gray;
-					transform-origin: bottom right;
-					transition: transform 0.25s ease-out;
-				}
-				&:hover:after {
-					transform: scaleX(1);
-					transform-origin: bottom left;
+				&.active {
+					color: #2556a0;
+					font-weight: 600;
 				}
       }
       &+li {
@@ -80,14 +68,27 @@
 }
 //최상위 컨테이너
 .main {
-  //background: linear-gradient(to left top, #28a5f5 0%, #1e87f0 100%);
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
   z-index: 1;
   font-size: 0;
-  text-align: right;
+	.swiper-section {
+		height: 100%;
+		.swiper-wrapper {
+			& > .swiper-slide {
+				text-align: right;
+				&:after {
+					content: '';
+					display: inline-block;
+					width: 0;
+					height: 100%;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
   //스와이퍼 랩핑
   .swiper-wrap {
     position: relative;
@@ -95,10 +96,71 @@
     vertical-align: middle;
     z-index: 1;
     font-size: 0;
+		text-align: left;
     @media all and (max-width: 1610px) {
       width: 100%;
 			padding-left: 1.5rem;
     }
+		//contact 영역
+		.contact-form {
+			font-size: 2rem;
+			width: 1580px;
+			@media all and (max-width: 1610px) {
+				width: 100%;
+			}
+		}
+		//about 영역
+		.about-list {
+			width: 1580px;
+			@media all and (max-width: 1610px) {
+				width: 100%;
+			}
+			li {
+				opacity: 0;
+				width: 33.33%;
+				padding-right: 1.5rem;
+				float: left;
+				.h-bar {
+					display: inline-block;
+					width: 2rem;
+					height: 1px;
+					background-color: #000;
+					vertical-align: middle;
+					margin-right: .5rem;
+				}
+				em {
+					display: inline-block;
+					font-size: 1rem;
+					font-style: normal;
+					font-weight: 600;
+					color: #000;
+					vertical-align: middle;
+				}
+				p {
+					font-size: .8rem;
+					font-weight: 300;
+					color: #333;
+					margin-bottom: .25rem;
+					&:first-of-type {
+						margin-top: 1.5rem;
+					}
+				}
+
+				@media all and (max-width: 700px) {
+					float: none;
+					width: 100%;
+					& + li {
+						margin-top: 1rem;
+					}
+					p {
+						&:first-of-type {
+							margin-top: .5rem;
+						}
+					}
+				}
+			}
+			@include clearfix;
+		}
     //스와이퍼 영역
     .swiper-container.swiper-main {
       width: 1580px;
@@ -116,7 +178,6 @@
           font-size: 0;
           //border: 1px silver solid;
           overflow: hidden;
-          text-align: left;
           p {
             font-size: 1rem;
             font-weight: 300;
