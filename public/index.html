@@ -30,6 +30,23 @@
 	<title>PORTFOLIO</title>
 </head>
 <body>
+<div class="ui modal detail-modal">
+	<div class="header">Header</div>
+</div>
+<script>
+	$(function () {
+	  $('.ui.modal.detail-modal').modal('setting',{
+		  duration: 900,
+		  transition: 'slide',
+	  });
+	  $('.thumbnail-box').click(function () {
+		  $('.ui.modal').modal('show');
+	  });
+	  $('.ui.modal.detail-modal .header').click(function () {
+			$('.ui.modal').modal('hide');
+		})
+  });
+</script>
 <div class="pre-loader">
 	<div class="bouncing-loader">
 		<div></div>
@@ -56,14 +73,12 @@
 					<div class="swiper-container swiper-main animated delay-03s faster fadeInUp">
 						<ul class="swiper-wrapper">
 							<li class="swiper-slide">
-								<a href="https://condeal-mo-82768.firebaseapp.com/intro/" target="_blank">
-									<div class="thumbnail-box list-1"></div>
-									<p>콘딜 플랫폼 브랜드 사이트 프로젝트</p>
-									<span>#반응형웹</span>
-									<span>#Vue</span>
-									<span>#다국어</span>
-									<span>#브랜드</span>
-								</a>
+								<div class="thumbnail-box list-1"></div>
+								<p>콘딜 플랫폼 브랜드 사이트 프로젝트</p>
+								<span>#반응형웹</span>
+								<span>#Vue</span>
+								<span>#다국어</span>
+								<span>#브랜드</span>
 							</li>
 							<li class="swiper-slide">
 								<a href="https://condeal-mo-82768.firebaseapp.com/pc/" target="_blank">
