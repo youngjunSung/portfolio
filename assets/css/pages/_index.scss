@@ -272,6 +272,7 @@
             }
           }
           .thumbnail-box {
+						cursor: pointer;
             width: 100%;
             height: 300px;
             @for $i from 1 through 7 {
