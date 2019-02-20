@@ -1,5 +1,14 @@
 $(function () {
-	var secSwipder = new Swiper('.swiper-section', {
+	$('.thumbnail-box').click(function () {
+		var num = $(this).parent().index();
+		projectSwiper.slideTo(num, 0);
+		$('.detail-modal').addClass('active');
+	});
+	$('.close-btn').click(function () {
+		$('.detail-modal').removeClass('active');
+	});
+
+	var secSwiper = new Swiper('.swiper-section', {
 		slidesPerView: 1,
 		speed: 700,
 		direction: 'vertical',
@@ -12,21 +21,21 @@ $(function () {
 		var num = $(this).index();
 		$('.contact > li > span').removeClass('active');
 		$(this).find('span').addClass('active');
-		secSwipder.slideTo(num, 500);
+		secSwiper.slideTo(num, 500);
 	});
-	secSwipder.on('slideChange', function () {
-		$('.contact > li > span').removeClass('active').eq(secSwipder.activeIndex).addClass('active');
-		if (secSwipder.activeIndex == 0) {
+	secSwiper.on('slideChange', function () {
+		$('.contact > li > span').removeClass('active').eq(secSwiper.activeIndex).addClass('active');
+		if (secSwiper.activeIndex == 0) {
 			$('.swiper-main').removeClass('fadeOutRight').addClass('fadeInUp');
 		} else {
 			$('.swiper-main').removeClass('fadeInUp').addClass('fadeOutRight');
 		}
-		if (secSwipder.activeIndex == 1) {
+		if (secSwiper.activeIndex == 1) {
 			$('.about-list > li').removeClass('fadeOutRight').addClass('fadeInRight');
 		} else {
 			$('.about-list > li').removeClass('fadeInRight').addClass('fadeOutRight');
 		}
-		if (secSwipder.activeIndex == 2) {
+		if (secSwiper.activeIndex == 2) {
 			$('.contact-form').removeClass('fadeOutRight').addClass('zoomIn');
 		} else {
 			$('.contact-form').removeClass('zoomIn').addClass('fadeOutRight');
@@ -38,10 +47,6 @@ $(function () {
 		spaceBetween: 30,
 		centeredSlides: false,
 		speed: 600,
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev'
-		},
 		pagination: {
 			el: '.main-nav',
 			clickable: false
@@ -60,6 +65,24 @@ $(function () {
 				spaceBetween: 20,
 			},
 		}
+	});
+
+	var projectSwiper = new Swiper('.swiper-project', {
+		slidesPerView: 1,
+		// effect: 'fade',
+		simulateTouch: false,
+		autoHeight: true,
+		speed: 700,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev'
+		},
+	});
+
+	$('.swiper-button-next, .swiper-button-prev').click(function () {
+		// $('html, body').scrollTop(0);
+		$('html, body').animate({scrollTop:0},300);
+		projectSwiper.updateAutoHeight(0);
 	});
 
 	var $name = document.querySelector('#name'),
