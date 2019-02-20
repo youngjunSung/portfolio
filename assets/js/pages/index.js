@@ -79,6 +79,10 @@ $(function () {
 		},
 	});
 
+	projectSwiper.on('slideChange', function () {
+		$('html, body').animate({scrollTop:0},300);
+	});
+
 	$('.swiper-button-next, .swiper-button-prev').click(function () {
 		// $('html, body').scrollTop(0);
 		$('html, body').animate({scrollTop:0},300);
