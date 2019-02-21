@@ -27,7 +27,7 @@
 	<script src="./assets/js/vender/semantic.2.2.11.min.js"></script>
 	<script src="./assets/js/vender/swiper.min.js"></script>
 	<script src="./assets/js/pages/index.js"></script>
-	<title>PORTFOLIO</title>
+	<title>PORTFOLIO by Y.jun</title>
 </head>
 <body>
 <!--[if lte IE 9]>
@@ -41,8 +41,17 @@
 	</div>
 </div>
 <![endif]-->
+<!--프리 로더-->
+<div class="pre-loader">
+	<div class="bouncing-loader">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</div>
 <!--프로젝트 상세 팝업-->
 <article class="detail-modal">
+	<!--디테일 로고-->
 	<div class="detail-logo">
 		<span>P</span>
 		<span>O</span>
@@ -54,9 +63,12 @@
 		<span>I</span>
 		<span>O</span>
 	</div>
+	<!--닫기 버튼-->
 	<button type="button" class="close-btn"></button>
+	<!--스와이퍼 컨테이너-->
 	<div class="swiper-container swiper-project">
 		<ul class="swiper-wrapper">
+			<!--프로젝트 디테일 리스트-->
 			<li class="swiper-slide project-detail">
 				<div class="project-bg parallax-window" data-parallax="scroll" data-image-src="/portfolio/assets/images/bg/detail_01.png">
 					<h1 class="bg-tit">
@@ -203,6 +215,7 @@
 							<h2>사이트 특징</h2>
 							<p>- 반응형웹</p>
 							<p>- 다국어</p>
+							<p>- Java Server Pages</p>
 							<p>- Semantic UI</p>
 						</li>
 						<li>
@@ -344,32 +357,25 @@
 				</div>
 			</li>
 		</ul>
-		<!-- If we need navigation buttons -->
+		<!-- 이동버튼 -->
 		<div class="swiper-button-prev"><i class="icon angle left"></i> Prev Project</div>
 		<div class="swiper-button-next">Next Project <i class="icon angle right"></i></div>
 	</div>
 </article>
-<div class="pre-loader">
-	<div class="bouncing-loader">
-		<div></div>
-		<div></div>
-		<div></div>
-	</div>
-</div>
+<!--메인 헤더-->
 <header class="hd">
 	<a href="index.html" class="logo">Portfolio <span>by Y.jun</span></a>
 	<ul class="contact">
 		<li><span class="active">Works</span></li>
 		<li><span>Capability</span></li>
 		<li><span>Contact</span></li>
-		<!--<li><a href="https://www.facebook.com/SeongYoungJune" target="_blank"><i class="facebook icon"></i></a></li>-->
-		<!--<li><a href="https://github.com/youngjuneSeong" target="_blank"><i class="github square icon"></i></a></li>-->
-		<!--<li><a href="https://www.linkedin.com/in/young-june-seong-93008b168/" target="_blank"><i class="linkedin icon"></i></a></li>-->
 	</ul>
 </header>
+<!--메인 콘텐츠-->
 <main role="main" class="main">
 	<div class="swiper-container swiper-section">
 		<ul class="swiper-wrapper">
+			<!--워크리스트-->
 			<li class="swiper-slide">
 				<div class="swiper-wrap">
 					<div class="swiper-container swiper-main animated delay-03s faster fadeInUp">
@@ -423,13 +429,9 @@
 							</li>
 						</ul>
 					</div>
-					<!-- If we need navigation buttons -->
-					<!--<div class="swiper-button-prev"></div>-->
-					<!--<div class="swiper-button-next"></div>-->
-					<!-- If we need pagination -->
-					<!--<div class="swiper-pagination main-nav"></div>-->
 				</div>
 			</li>
+			<!--역량-->
 			<li class="swiper-slide">
 				<div class="swiper-wrap">
 					<ul class="about-list">
@@ -457,6 +459,7 @@
 					</ul>
 				</div>
 			</li>
+			<!--어바웃-->
 			<li class="swiper-slide">
 				<div class="swiper-wrap contact-wrap">
 					<form class="contact-form animated delay-06s faster" method="post" action="mail.php" id="main_contact_form">
@@ -488,9 +491,11 @@
 		</ul>
 	</div>
 </main>
+<!--메인 푸터-->
 <footer class="ft">
 	<span>Copyright © 2019 Sugard, Inc.</span>
 </footer>
+<!--로더 스크립트-->
 <script>
 	$(window).load(function () {
 	  $('.pre-loader').fadeOut();
