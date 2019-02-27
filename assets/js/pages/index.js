@@ -1,4 +1,6 @@
 $(function () {
+	$('.pre-loader').fadeOut();
+
 	$('.thumbnail-box').click(function () {
 		var num = $(this).parent().index();
 		projectSwiper.slideTo(num, 0);
