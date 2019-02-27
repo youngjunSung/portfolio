@@ -2,8 +2,7 @@
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
@@ -23,6 +22,11 @@
 				content="https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/og_img.png?alt=media&token=e37b849f-9f1f-4215-b98d-b5559d914a79"/>
 	<meta name="twitter:card" content="summary"/>
 	<link rel="stylesheet" href="./assets/css/index.css">
+	<!--플러그인/페이지 스크립트-->
+	<script src="./assets/js/vender/jquery-2.2.4.min.js"></script>
+	<script src="./assets/js/vender/semantic.2.2.11.min.js"></script>
+	<script src="./assets/js/vender/swiper.min.js"></script>
+	<script src="./assets/js/pages/index.js"></script>
 	<title>PORTFOLIO by Y.jun</title>
 </head>
 <body>
@@ -66,7 +70,7 @@
 		<ul class="swiper-wrapper">
 			<!--프로젝트 디테일 리스트-->
 			<li class="swiper-slide project-detail">
-				<div class="project-bg parallax-window" data-parallax="scroll" data-image-src="/portfolio/assets/images/bg/detail_01.png">
+				<div class="project-bg">
 					<h1 class="bg-tit">
 						<span class="top-txt" style="color: lavender;">CONDEAL PLATFORM</span>
 						<span class="btm-txt">브랜드 사이트 구축</span>
@@ -110,7 +114,7 @@
 				</div>
 			</li>
 			<li class="swiper-slide project-detail">
-				<div class="project-bg parallax-window" data-parallax="scroll" data-image-src="/portfolio/assets/images/bg/detail_01.png">
+				<div class="project-bg">
 					<h1 class="bg-tit">
 						<span class="top-txt" style="color: crimson;">CONTENTSDEAL</span>
 						<span class="btm-txt">거래소 사이트 구축(PC)</span>
@@ -152,7 +156,7 @@
 				</div>
 			</li>
 			<li class="swiper-slide project-detail">
-				<div class="project-bg parallax-window" data-parallax="scroll" data-image-src="/portfolio/assets/images/bg/detail_01.png">
+				<div class="project-bg">
 					<h1 class="bg-tit">
 						<span class="top-txt" style="color: deeppink;">CONTENTSDEAL</span>
 						<span class="btm-txt">거래소 사이트 구축(MO)</span>
@@ -193,7 +197,7 @@
 				</div>
 			</li>
 			<li class="swiper-slide project-detail">
-				<div class="project-bg parallax-window" data-parallax="scroll" data-image-src="/portfolio/assets/images/bg/detail_01.png">
+				<div class="project-bg">
 					<h1 class="bg-tit">
 						<span class="top-txt" style="color: blanchedalmond;">BLOCK CHAIN PAYMENT</span>
 						<span class="btm-txt">스타페이 사이트 구축</span>
@@ -236,7 +240,7 @@
 				</div>
 			</li>
 			<li class="swiper-slide project-detail">
-				<div class="project-bg parallax-window" data-parallax="scroll" data-image-src="/portfolio/assets/images/bg/detail_01.png">
+				<div class="project-bg">
 					<h1 class="bg-tit">
 						<span class="top-txt" style="color: blanchedalmond;">Blockchain x Ent</span>
 						<span class="btm-txt">스타KST 리뉴얼</span>
@@ -277,7 +281,7 @@
 				</div>
 			</li>
 			<li class="swiper-slide project-detail">
-				<div class="project-bg parallax-window" data-parallax="scroll" data-image-src="/portfolio/assets/images/bg/detail_01.png">
+				<div class="project-bg">
 					<h1 class="bg-tit">
 						<span class="top-txt" style="color: blanchedalmond;">f1 ad plarform</span>
 						<span class="btm-txt">브랜드 사이트 구축</span>
@@ -315,7 +319,7 @@
 				</div>
 			</li>
 			<li class="swiper-slide project-detail">
-				<div class="project-bg parallax-window" data-parallax="scroll" data-image-src="/portfolio/assets/images/bg/detail_01.png">
+				<div class="project-bg">
 					<h1 class="bg-tit">
 						<span class="top-txt" style="color: red;">Lotte cinema</span>
 						<span class="btm-txt">온라인 광고 가이드</span>
@@ -491,11 +495,6 @@
 <footer class="ft">
 	<span>Copyright © 2019 Sugard, Inc.</span>
 </footer>
-<!--플러그인/페이지 스크립트-->
-<script src="./assets/js/vender/jquery-2.2.4.min.js"></script>
-<script src="./assets/js/vender/semantic.2.2.11.min.js"></script>
-<script src="./assets/js/vender/swiper.min.js"></script>
-<script src="./assets/js/pages/index.js"></script>
 <!--로더 스크립트-->
 <script>
 	$(window).load(function () {
