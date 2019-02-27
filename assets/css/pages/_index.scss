@@ -279,7 +279,7 @@
             @for $i from 1 through 7 {
               &.list-#{$i} {
                 background: {
-                  image: url("../images/works/list_#{$i}.png");
+                  image: url("../images/works/list_#{$i}.jpg");
                   position: center center;
                   repeat: no-repeat;
                   size: cover;
@@ -490,7 +490,7 @@
 			&:nth-of-type(#{$i}) {
 				.project-bg {
 					background: {
-						image: url("../images/bg/detail_0#{$i}.png");
+						image: url("../images/bg/detail_0#{$i}.jpg");
 						position: center center;
 						repeat: no-repeat;
 						size: cover;
