@@ -524,6 +524,41 @@
 		//		}
 		//	}
 		//}
+		&:nth-of-type(1) {
+			.project-bg {
+				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_01.jpg?alt=media&token=0fd676ed-7166-4daf-ba53-061f30271644");
+			}
+		}
+		&:nth-of-type(2) {
+			.project-bg {
+				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_02.jpg?alt=media&token=8fb329aa-5238-4857-9e7d-7536932c0ff8");
+			}
+		}
+		&:nth-of-type(3) {
+			.project-bg {
+				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_03.jpg?alt=media&token=63001ba4-2f54-4660-8272-b7e19161191b");
+			}
+		}
+		&:nth-of-type(4) {
+			.project-bg {
+				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_04.jpg?alt=media&token=ae7bdd58-7527-441d-8087-3c180fe94b3a");
+			}
+		}
+		&:nth-of-type(5) {
+			.project-bg {
+				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_05.jpg?alt=media&token=6fcb6044-a106-4d98-9c38-b870a035cb3e");
+			}
+		}
+		&:nth-of-type(6) {
+			.project-bg {
+				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_06.jpg?alt=media&token=705fdfdf-53dc-4953-9801-23f568a2ca8e");
+			}
+		}
+		&:nth-of-type(7) {
+			.project-bg {
+				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_07.jpg?alt=media&token=8d1cd232-8988-43e8-b1ac-ce2cecfb673f");
+			}
+		}
 		//프로젝트 상단 이미지
 		.project-bg {
 			position: relative;
@@ -535,27 +570,6 @@
 				repeat: no-repeat;
 				size: cover;
 			};
-			&:nth-of-type(1) {
-				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_01.jpg?alt=media&token=0fd676ed-7166-4daf-ba53-061f30271644");
-			}
-			&:nth-of-type(2) {
-				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_02.jpg?alt=media&token=8fb329aa-5238-4857-9e7d-7536932c0ff8");
-			}
-			&:nth-of-type(3) {
-				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_03.jpg?alt=media&token=63001ba4-2f54-4660-8272-b7e19161191b");
-			}
-			&:nth-of-type(4) {
-				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_04.jpg?alt=media&token=ae7bdd58-7527-441d-8087-3c180fe94b3a");
-			}
-			&:nth-of-type(5) {
-				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_05.jpg?alt=media&token=6fcb6044-a106-4d98-9c38-b870a035cb3e");
-			}
-			&:nth-of-type(6) {
-				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_06.jpg?alt=media&token=705fdfdf-53dc-4953-9801-23f568a2ca8e");
-			}
-			&:nth-of-type(7) {
-				background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/detail_07.jpg?alt=media&token=8d1cd232-8988-43e8-b1ac-ce2cecfb673f");
-			}
 			.bg-tit {
 				position: relative;
 				color: white;

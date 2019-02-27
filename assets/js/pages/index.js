@@ -1,5 +1,7 @@
 $(function () {
-	$('.pre-loader').fadeOut();
+	$(window).load(function () {
+		$('.pre-loader').fadeOut();
+	});
 
 	$('.thumbnail-box').click(function () {
 		var num = $(this).parent().index();
