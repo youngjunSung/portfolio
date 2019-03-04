@@ -8,9 +8,22 @@ $(function () {
 		projectSwiper.slideTo(num, 0);
 		$('.detail-modal').addClass('active');
 	});
+
 	$('.close-btn').click(function () {
 		$('.detail-modal').removeClass('active');
 	});
+
+	$('.close-btn').one('click',function () {
+		if (getLastUrl.indexOf('project') == 1) {
+			var stateObj = {foo : "bar"};
+			history.pushState(stateObj, "page 2", "index.html");
+		}
+	});
+
+	function removeUrl() {
+		var stateObj = {foo : "bar"};
+		history.pushState(stateObj, "page 2", "index.html");
+	}
 
 	var secSwiper = new Swiper('.swiper-section', {
 		slidesPerView: 1,
