@@ -127,5 +127,30 @@ $(function () {
 		}).fail(function (a) {
 			alert('보내기 실패하였습니다.');
 		})
-	})
+	});
+
+	var getUrl = location.href, getLastUrl = getUrl.slice(getUrl.lastIndexOf('/') + 1, getUrl.length);
+
+	if (getLastUrl == '#project1') {
+		projectSwiper.slideTo(0, 0);
+		$('.detail-modal').addClass('active');
+	} else if (getLastUrl == '#project2') {
+		projectSwiper.slideTo(1, 0);
+		$('.detail-modal').addClass('active');
+	} else if (getLastUrl == '#project3') {
+		projectSwiper.slideTo(2, 0);
+		$('.detail-modal').addClass('active');
+	} else if (getLastUrl == '#project4') {
+		projectSwiper.slideTo(3, 0);
+		$('.detail-modal').addClass('active');
+	} else if (getLastUrl == '#project5') {
+		projectSwiper.slideTo(4, 0);
+		$('.detail-modal').addClass('active');
+	} else if (getLastUrl == '#project6') {
+		projectSwiper.slideTo(5, 0);
+		$('.detail-modal').addClass('active');
+	} else if (getLastUrl == '#project7') {
+		projectSwiper.slideTo(6, 0);
+		$('.detail-modal').addClass('active');
+	}
 });
