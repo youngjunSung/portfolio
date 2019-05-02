@@ -1,0 +1,284 @@
+[33mcommit 1d9cb65055da1c41b2dca3dea8aaf7cc9207da39[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: a215ccc 487785f
+Author: youngjunSung <seong0814@in-comms.co.kr>
+Date:   Thu May 2 12:05:49 2019 +0900
+
+    merge
+
+[33mcommit a215cccebcd6e31f6adeb0d3386603b7afc1ad4a[m
+Author: youngjunSung <seong0814@in-comms.co.kr>
+Date:   Thu May 2 12:04:53 2019 +0900
+
+    Merge branch 'master' of https://github.com/youngjunSung/portfolio
+
+[33mcommit dd4f8cdeead1dfe6b7771eedce416e4e78a39d53[m
+Author: youngjunSung <seong0814@in-comms.co.kr>
+Date:   Thu May 2 11:40:57 2019 +0900
+
+    테스트
+
+[33mcommit 487785fdc21f8d2775c8a9aad7b4c9cbdf6998fa[m
+Author: youngjunSung <seong0814@in-comms.co.kr>
+Date:   Thu May 2 10:55:58 2019 +0900
+
+    로더 txt 수정 두번째
+
+[33mcommit 64722e043c4463d367fb437d97aeaffeebeb2149[m
+Author: youngjunSung <seong0814@in-comms.co.kr>
+Date:   Thu May 2 10:50:11 2019 +0900
+
+    로더 txt 수정
+
+[33mcommit 95c25d05156ca239c1c76228ea6a62a5698bd30e[m[33m ([m[1;31morigin/test2[m[33m, [m[1;31morigin/test[m[33m, [m[1;32mtest2[m[33m, [m[1;32mtest[m[33m)[m
+Author: youngjunSung <seong0814@in-comms.co.kr>
+Date:   Tue Apr 30 11:24:42 2019 +0900
+
+    new
+
+[33mcommit f540fb7fdcfc33991f07d62429c8d695684587e4[m
+Author: youngjunSung <seong0814@in-comms.co.kr>
+Date:   Tue Apr 30 11:17:56 2019 +0900
+
+    stash test
+
+[33mcommit 34de45891dcd1cfda8ff76d6337852f90bd3f948[m
+Author: yj <seong0814@naver.com>
+Date:   Mon Mar 11 15:56:05 2019 +0900
+
+    Google Search Console
+
+[33mcommit d593be87ed9a5fa65b340dae1be097a854092571[m
+Author: Youngjun Sung <38402538+youngjunSung@users.noreply.github.com>
+Date:   Mon Mar 11 15:54:24 2019 +0900
+
+    Add files via upload
+    
+    Google Search Console
+
+[33mcommit 3023a95fb961670ff278b4d5937d6971f6981c38[m
+Author: yj <seong0814@naver.com>
+Date:   Thu Mar 7 01:17:35 2019 +0900
+
+    해시태그 위치 수정 (IE)
+
+[33mcommit da1b6e9062cfb5a44da92f80482fd263f83d5acb[m
+Author: yj <seong0814@naver.com>
+Date:   Tue Mar 5 02:05:06 2019 +0900
+
+    로더 index 상향, 닫기 클릭 시 url 한번만 변경
+
+[33mcommit 30456d3dabf7a3106c0ad5edadb85e46b891e937[m
+Author: yj <seong0814@naver.com>
+Date:   Tue Mar 5 01:24:56 2019 +0900
+
+    url 체크 스크립트 추가
+
+[33mcommit ed01dbaa02b289357e40d6bcabc636658ca04dc3[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 27 22:19:34 2019 +0900
+
+    디테일 모달 순서, 타이틀 색상 변경
+
+[33mcommit 123336b289a86ddc6880686ec636ab585310eb67[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 27 22:09:35 2019 +0900
+
+    레이지 로딩 수정중..........
+
+[33mcommit 31da357e509f8089a2d5197728e479c046ddeeae[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 27 21:57:47 2019 +0900
+
+    레이지 로딩 수정중.......
+
+[33mcommit cddfeccb94fb485c857966252d3bd350b72a1d71[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 27 21:17:11 2019 +0900
+
+    레이지 로딩 수정중...
+
+[33mcommit fe100091883fa4980edaef35581bf7530a17af7c[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 27 20:52:21 2019 +0900
+
+    레이지 로딩 수정중
+
+[33mcommit c4abb78805a95572edcbc1c70c99476c09f7a9f9[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 27 20:14:03 2019 +0900
+
+    이미지 포맷 변경
+
+[33mcommit ef04e6d5858c66c9bc7352629810ce52a8b0c286[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 27 20:07:02 2019 +0900
+
+    jpg 추가
+
+[33mcommit bd7f4effdc511328e6f776554b24229c83195440[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 27 19:51:28 2019 +0900
+
+    이미지 크기 수정
+
+[33mcommit bf4c0e906e31e58224d12ccb8f0bfdf94d66c6ff[m
+Author: yj <seong0814@naver.com>
+Date:   Tue Feb 26 22:26:02 2019 +0900
+
+    오타 수정
+
+[33mcommit ee87cc3bb6211900d7a8ebaaf4c16782607cfcd0[m
+Author: yj <seong0814@naver.com>
+Date:   Mon Feb 25 00:30:45 2019 +0900
+
+    스크립트 위치 수정
+
+[33mcommit a82fe9c610ac574ae9a640ab99f9b0953bbf1812[m
+Author: yj <seong0814@naver.com>
+Date:   Mon Feb 25 00:22:42 2019 +0900
+
+    이미지 수정
+
+[33mcommit 2245943657120d72fc25a750529e9b65e823e82b[m
+Author: yj <seong0814@naver.com>
+Date:   Sun Feb 24 00:12:02 2019 +0900
+
+    이미지 경량화
+
+[33mcommit 2c207be8a48b6ef2c52902212077ec03f1908578[m
+Author: yj <seong0814@naver.com>
+Date:   Sat Feb 23 22:06:13 2019 +0900
+
+    validator 반영
+
+[33mcommit 6df56ce0b137e75e1e5f662fc8bed522bc49eff4[m
+Author: yj <seong0814@naver.com>
+Date:   Thu Feb 21 13:19:27 2019 +0900
+
+    html 코드 정리
+
+[33mcommit 9768cf2596ac6fbba39574eb5da759bc19f15713[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 20 17:06:20 2019 +0900
+
+    이미지 수정, 커서 추가
+
+[33mcommit fefbfa97e07e5c2a12aae80aecf6f71f8844f7e2[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 20 17:00:56 2019 +0900
+
+    수정
+
+[33mcommit 32825752b7aa5023b50c9b3c6bb183a9ee2a843c[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 20 16:54:11 2019 +0900
+
+    디테일 팝업창 작업 완료
+
+[33mcommit 55c880a0ac1665f9407d7e5f53f7c6c8b991f0b1[m
+Author: yj <seong0814@naver.com>
+Date:   Mon Feb 18 17:20:26 2019 +0900
+
+    디테일 팝업창 작업
+
+[33mcommit a77089b1817d2e6e620986be7d37ba0b756ce7f1[m
+Author: yj <seong0814@naver.com>
+Date:   Mon Feb 11 18:49:32 2019 +0900
+
+    파비콘 변경
+
+[33mcommit 32217752bc5349405fd7e097a79c3d784cc1d605[m
+Author: yj <seong0814@naver.com>
+Date:   Mon Feb 11 13:51:36 2019 +0900
+
+    readme 추가
+
+[33mcommit 23af196255ef691d15b00e8b0b05226341c59672[m
+Author: yj <seong0814@naver.com>
+Date:   Mon Feb 11 13:32:34 2019 +0900
+
+    파일 구조 변경
+
+[33mcommit 4a5864b08aa504957e269e8673eccfc71b013bf8[m[33m ([m[1;31morigin/new-pf[m[33m)[m
+Author: yj <seong0814@naver.com>
+Date:   Mon Feb 11 13:28:17 2019 +0900
+
+    모달 작업중
+
+[33mcommit 38125fe4b22588bf9d2f7cb65dce0981662b25a4[m
+Author: yj <seong0814@naver.com>
+Date:   Mon Feb 11 00:31:34 2019 +0900
+
+    프리로더 추가
+
+[33mcommit 2a7c4aba0a067428fba87cc9b21cd59b35be0ac6[m
+Author: yj <seong0814@naver.com>
+Date:   Thu Feb 7 01:31:21 2019 +0900
+
+    capa 완료
+
+[33mcommit 48a375f3caadaeb44b2756a0a79344219a60fe37[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Feb 6 21:09:06 2019 +0900
+
+    works 리스트 완료
+
+[33mcommit 62fc9c8bc3422ae810f638cb1ca524cdda3f27f1[m[33m ([m[1;31morigin/old-pf[m[33m)[m
+Author: yj <seong0814@naver.com>
+Date:   Thu Jan 24 01:20:48 2019 +0900
+
+    홈 작업
+
+[33mcommit 4bbdee23d6394392f7fd2dfedad47e62d8b833ec[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Jan 23 00:46:30 2019 +0900
+
+    모바일 슬라이드 duplicate 추가
+
+[33mcommit c6028643c38073da4ca1fd83f6a9b6074228411e[m
+Author: yj <seong0814@naver.com>
+Date:   Wed Jan 23 00:32:55 2019 +0900
+
+    모바일 슬라이드 스케일부여
+
+[33mcommit 8e899b2fd147ccca926bad8909f610d1077c9a2f[m
+Author: yj <seong0814@naver.com>
+Date:   Tue Jan 22 23:51:04 2019 +0900
+
+    텍스트 수정
+
+[33mcommit 8e1ad4da419b0224c518b7758051a2a4ebad81f8[m
+Author: yj <seong0814@naver.com>
+Date:   Tue Jan 22 23:21:58 2019 +0900
+
+    깃 아이콘 추가/url 부여
+
+[33mcommit 10b8eb8218c51ddab5d8f3689266287bb578beac[m
+Author: youngjuneSeong <seong0814@naver.com>
+Date:   Mon Jan 21 18:12:56 2019 +0900
+
+    og img 경로 firebase cdn 사용
+
+[33mcommit f2c486db572f97cce55d050259dca67a3d178ad1[m
+Author: youngjuneSeong <seong0814@naver.com>
+Date:   Mon Jan 21 18:05:50 2019 +0900
+
+    og img 경로 수정
+
+[33mcommit c150af46adec92c6140d49f9a1c70a6d50a7619c[m
+Author: youngjuneSeong <seong0814@naver.com>
+Date:   Mon Jan 21 18:03:22 2019 +0900
+
+    firebase 호스팅 / meta 태그 추가
+
+[33mcommit 4b80e08f0023be973083bcc035a32abecd2189db[m
+Author: yj <seong0814@naver.com>
+Date:   Mon Jan 21 00:46:31 2019 +0900
+
+    90% 완료
+
+[33mcommit 143b2ff5b115721f63c908f8fddcc1a7b7b7502e[m
+Author: yj <seong0814@naver.com>
+Date:   Sat Jan 19 23:03:33 2019 +0900
+
+    Initial commit
