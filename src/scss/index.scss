@@ -1,0 +1,16 @@
+@charset "UTF-8";
+//utils
+@import "utils/_var";
+@import "utils/_mixin";
+
+//vender
+@import "vender/semantic";
+@import "vender/animate";
+@import "vender/swiper.min";
+
+//base
+@import "base/_font";
+@import "base/_reset";
+
+//page
+@import "pages/_index";

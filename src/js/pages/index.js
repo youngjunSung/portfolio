@@ -127,20 +127,20 @@ $(function () {
 	$msg.addEventListener('focus', onEmailFocus);
 	$msg.addEventListener('blur', onEmailBlur);
 
-	var a = $("#main_contact_form");
-	$(a).submit(function (c) {
-		c.preventDefault();
-		var d = $(a).serialize();
-		$.ajax({
-			type: "POST",
-			url: $(a).attr("action"),
-			data: d
-		}).done(function (a) {
-			alert('문의 접수가 완료되었습니다.');
-		}).fail(function (a) {
-			alert('보내기 실패하였습니다.');
-		})
-	});
+	// var a = $("#main_contact_form");
+	// $(a).submit(function (c) {
+	// 	c.preventDefault();
+	// 	var d = $(a).serialize();
+	// 	$.ajax({
+	// 		type: "POST",
+	// 		url: $(a).attr("action"),
+	// 		data: d
+	// 	}).done(function (a) {
+	// 		alert('문의 접수가 완료되었습니다.');
+	// 	}).fail(function (a) {
+	// 		alert('보내기 실패하였습니다.');
+	// 	})
+	// });
 
 	var getUrl = location.href, getLastUrl = getUrl.slice(getUrl.lastIndexOf('/') + 1, getUrl.length);
 
