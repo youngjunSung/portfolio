@@ -6496,10 +6496,10 @@ a:hover, a:active, a:focus {
     float: none;
     width: 100%;
   }
-  .content .swiper-wrap .about-list dl + li {
+  .content .swiper-wrap .about-list dl + dl {
     margin-top: 2.5rem;
   }
-  .content .swiper-wrap .about-list dl p:first-of-type {
+  .content .swiper-wrap .about-list dl dd:first-of-type {
     margin-top: .5rem;
   }
 }
@@ -6570,43 +6570,43 @@ a:hover, a:active, a:focus {
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-1 {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_1.jpg");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_1.jpg?v20210503");
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-2 {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_2.jpg");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_2.jpg?v20210503");
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-3 {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_3.jpg");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_3.jpg?v20210503");
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-4 {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_4.jpg");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_4.jpg?v20210503");
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-5 {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_5.jpg");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_5.jpg?v20210503");
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-6 {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_6.jpg");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_6.jpg?v20210503");
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-7 {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_7.jpg");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_7.jpg?v20210503");
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-8 {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_8.jpg");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_8.jpg?v20210503");
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-9 {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_9.jpg");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_9.jpg?v20210503");
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-10 {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_10.jpg");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_10.jpg?v20210503");
 }
 
 @media all and (max-width: 700px) {
@@ -6844,6 +6844,7 @@ a:hover, a:active, a:focus {
   height: 1.77rem;
   opacity: 0.8;
   z-index: 10;
+  cursor: pointer;
 }
 
 .detail-modal .close-btn:hover {
@@ -6883,7 +6884,7 @@ a:hover, a:active, a:focus {
 }
 
 .detail-modal .project-detail:nth-last-of-type(1) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_1.jpg?v20210502");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_1.jpg?v20210503");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6891,7 +6892,7 @@ a:hover, a:active, a:focus {
 }
 
 .detail-modal .project-detail:nth-last-of-type(2) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_2.jpg?v20210502");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_2.jpg?v20210503");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6899,7 +6900,7 @@ a:hover, a:active, a:focus {
 }
 
 .detail-modal .project-detail:nth-last-of-type(3) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_3.jpg?v20210502");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_3.jpg?v20210503");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6907,7 +6908,7 @@ a:hover, a:active, a:focus {
 }
 
 .detail-modal .project-detail:nth-last-of-type(4) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_4.jpg?v20210502");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_4.jpg?v20210503");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6915,7 +6916,7 @@ a:hover, a:active, a:focus {
 }
 
 .detail-modal .project-detail:nth-last-of-type(5) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_5.jpg?v20210502");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_5.jpg?v20210503");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6923,7 +6924,7 @@ a:hover, a:active, a:focus {
 }
 
 .detail-modal .project-detail:nth-last-of-type(6) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_6.jpg?v20210502");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_6.jpg?v20210503");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6931,7 +6932,7 @@ a:hover, a:active, a:focus {
 }
 
 .detail-modal .project-detail:nth-last-of-type(7) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_7.jpg?v20210502");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_7.jpg?v20210503");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6939,7 +6940,7 @@ a:hover, a:active, a:focus {
 }
 
 .detail-modal .project-detail:nth-last-of-type(8) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_8.jpg?v20210502");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_8.jpg?v20210503");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6947,7 +6948,7 @@ a:hover, a:active, a:focus {
 }
 
 .detail-modal .project-detail:nth-last-of-type(9) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_9.jpg?v20210502");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_9.jpg?v20210503");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6955,7 +6956,7 @@ a:hover, a:active, a:focus {
 }
 
 .detail-modal .project-detail:nth-last-of-type(10) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_10.jpg?v20210502");
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_10.jpg?v20210503");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6987,12 +6988,8 @@ a:hover, a:active, a:focus {
   letter-spacing: .5rem;
 }
 
-@media all and (max-width: 1140px) {
-  .detail-modal .project-detail .project-bg .bg-tit {
-    width: 100%;
-    padding: 0 2rem;
-    font-size: 2rem;
-  }
+.detail-modal .project-detail .project-bg .bg-tit br.mo {
+  display: none;
 }
 
 .detail-modal .project-detail .project-bg .bg-tit span {
@@ -7014,6 +7011,24 @@ a:hover, a:active, a:focus {
   .detail-modal .project-detail .project-bg .bg-tit span.btm-txt {
     margin-top: 1rem;
     text-align: left;
+  }
+}
+
+@media all and (max-width: 1140px) {
+  .detail-modal .project-detail .project-bg .bg-tit {
+    width: 100%;
+    padding: 0 2rem;
+    font-size: 2rem;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .detail-modal .project-detail .project-bg .bg-tit {
+    vertical-align: bottom;
+    margin-bottom: 4rem;
+  }
+  .detail-modal .project-detail .project-bg .bg-tit br.mo {
+    display: block;
   }
 }
 
