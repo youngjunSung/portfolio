@@ -90,7 +90,7 @@
 		.swiper-wrapper {
 			& > .swiper-slide {
 				text-align: right;
-				&:after {
+				&::after {
 					content: '';
 					display: inline-block;
 					width: 0;
@@ -133,6 +133,7 @@
 				@media all and (max-width: 700px) {
 					width: 100%;
 					padding: 0 1.5rem;
+					box-sizing: border-box;
 				}
 				.row {
 					margin-bottom: 1.5rem;
@@ -155,6 +156,7 @@
 					width: 100%;
 					//background-color: #f1f1f1;
 					padding-left: .5rem;
+					box-sizing: border-box;
 					font-size: .8rem;
 					&:focus {
 						outline: none;
@@ -176,6 +178,7 @@
 					width: 100%;
 					height: 16.66rem;
 					font-size: .8rem;
+					box-sizing: border-box;
 					padding: .7rem .5rem;
 					border: none;
 					border-bottom: 1px silver solid;
@@ -330,7 +333,7 @@
       width: 2.777rem;
       height: 2.777rem;
       text-align: center;
-      &:before {
+      &::before {
         content: '';
         display: inline-block;
         vertical-align: middle;
@@ -339,7 +342,7 @@
         border: solid gray;
         border-width: 0 2px 2px 0;
       }
-      &:after {
+      &::after {
         content: '';
         display: inline-block;
         width: 0;
@@ -350,7 +353,7 @@
     //스와이퍼 우측 버튼
     .swiper-button-next {
       right: -3.333rem;
-      &:before {
+      &::before {
         transform: rotate(-45deg);
         margin-right: .25rem;
       }
@@ -358,7 +361,7 @@
     //스와이터 좌측 버튼
     .swiper-button-prev {
       left: -3.333rem;
-      &:before {
+      &::before {
         transform: rotate(135deg);
         margin-left: .25rem;
       }
@@ -388,7 +391,7 @@
     width: 100%;
     height: 100%;
   }
-  &:after {
+  &::after {
     content: '';
     display: inline-block;
     width: 0;
@@ -409,7 +412,7 @@
 	&.hide {
 		display: none;
 	}
-	&:after {
+	&::after {
 		content: '';
 		display: inline-block;
 		width: 0;
@@ -462,8 +465,8 @@
 	.detail-logo {
 		position: absolute;
 		z-index: 10;
-		top: 2rem;
-		left: 2rem;
+		top: 1.77rem;
+		left: 1.77rem;
 		width: 5.5rem;
 		font-size: 0;
 		span {
@@ -490,7 +493,7 @@
 	.close-btn:hover {
 		opacity: 1;
 	}
-	.close-btn:before, .close-btn:after {
+	.close-btn::before, .close-btn::after {
 		position: absolute;
 		top: 0;
 		left: .833rem;
@@ -499,10 +502,10 @@
 		width: .12rem;
 		background-color: #fff;
 	}
-	.close-btn:before {
+	.close-btn::before {
 		transform: rotate(45deg);
 	}
-	.close-btn:after {
+	.close-btn::after {
 		transform: rotate(-45deg);
 	}
 	//상세 내용
@@ -576,7 +579,7 @@
 					}
 				}
 			}
-			&:before {
+			&::before {
 				content: '';
 				display: block;
 				position: absolute;
@@ -586,7 +589,7 @@
 				width: 100%;
 				height: 100%;
 			}
-			&:after {
+			&::after {
 				content: '';
 				display: inline-block;
 				vertical-align: middle;
@@ -599,6 +602,7 @@
 	.project-summary {
 		width: 1080px;
 		margin: 0 auto;
+		box-sizing: border-box;
 		padding: 5rem 0;
 		@media all and (max-width: 1140px) {
 			width: 100%;
@@ -650,6 +654,9 @@
 				width: 33.33%;
 				@media all and (max-width: 1140px) {
 					width: 50%;
+					&:last-of-type {
+						width: 100%
+					}
 				}
 			}
 			@include clearfix;
