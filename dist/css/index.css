@@ -6451,7 +6451,7 @@ a:hover, a:active, a:focus {
   }
 }
 
-.content .swiper-wrap .about-list li {
+.content .swiper-wrap .about-list dl {
   opacity: 0;
   width: 33.33%;
   padding-right: 1.5rem;
@@ -6461,16 +6461,7 @@ a:hover, a:active, a:focus {
        box-sizing: border-box;
 }
 
-.content .swiper-wrap .about-list li .h-bar {
-  display: inline-block;
-  width: 2rem;
-  height: 1px;
-  background-color: #000;
-  vertical-align: middle;
-  margin-right: .5rem;
-}
-
-.content .swiper-wrap .about-list li em {
+.content .swiper-wrap .about-list dl dt {
   display: inline-block;
   font-size: 1rem;
   font-style: normal;
@@ -6479,26 +6470,36 @@ a:hover, a:active, a:focus {
   vertical-align: middle;
 }
 
-.content .swiper-wrap .about-list li p {
+.content .swiper-wrap .about-list dl dt::before {
+  content: '';
+  display: inline-block;
+  width: 2rem;
+  height: 1px;
+  background-color: #000;
+  vertical-align: middle;
+  margin-right: .5rem;
+}
+
+.content .swiper-wrap .about-list dl dd {
   font-size: .8rem;
   font-weight: 300;
   color: #333;
   margin-bottom: .25rem;
 }
 
-.content .swiper-wrap .about-list li p:first-of-type {
+.content .swiper-wrap .about-list dl dd:first-of-type {
   margin-top: 1.5rem;
 }
 
 @media all and (max-width: 700px) {
-  .content .swiper-wrap .about-list li {
+  .content .swiper-wrap .about-list dl {
     float: none;
     width: 100%;
   }
-  .content .swiper-wrap .about-list li + li {
+  .content .swiper-wrap .about-list dl + li {
     margin-top: 2.5rem;
   }
-  .content .swiper-wrap .about-list li p:first-of-type {
+  .content .swiper-wrap .about-list dl p:first-of-type {
     margin-top: .5rem;
   }
 }
@@ -6558,6 +6559,10 @@ a:hover, a:active, a:focus {
   cursor: pointer;
   width: 100%;
   height: 300px;
+  border: 1px solid #ddd;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6566,58 +6571,49 @@ a:hover, a:active, a:focus {
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-1 {
   background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_1.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  -moz-background-size: cover;
-       background-size: cover;
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-2 {
   background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_2.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  -moz-background-size: cover;
-       background-size: cover;
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-3 {
   background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_3.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  -moz-background-size: cover;
-       background-size: cover;
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-4 {
   background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_4.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  -moz-background-size: cover;
-       background-size: cover;
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-5 {
   background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_5.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  -moz-background-size: cover;
-       background-size: cover;
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-6 {
   background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_6.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  -moz-background-size: cover;
-       background-size: cover;
 }
 
 .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-7 {
   background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_7.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  -moz-background-size: cover;
-       background-size: cover;
+}
+
+.content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-8 {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_8.jpg");
+}
+
+.content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-9 {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_9.jpg");
+}
+
+.content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-10 {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_10.jpg");
+}
+
+@media all and (max-width: 700px) {
+  .content .swiper-wrap .swiper-container.swiper-main .swiper-wrapper .swiper-slide .thumbnail-box.list-10 {
+    -moz-background-size: contain;
+         background-size: contain;
+  }
 }
 
 @media all and (max-width: 700px) {
@@ -6837,6 +6833,7 @@ a:hover, a:active, a:focus {
   text-align: center;
   color: #fff;
   width: 33.33%;
+  line-height: 1.7rem;
 }
 
 .detail-modal .close-btn {
@@ -6885,56 +6882,80 @@ a:hover, a:active, a:focus {
        box-sizing: border-box;
 }
 
-.detail-modal .project-detail:nth-of-type(1) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_1.jpg");
+.detail-modal .project-detail:nth-last-of-type(1) .project-bg {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_1.jpg?v20210502");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
        background-size: cover;
 }
 
-.detail-modal .project-detail:nth-of-type(2) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_2.jpg");
+.detail-modal .project-detail:nth-last-of-type(2) .project-bg {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_2.jpg?v20210502");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
        background-size: cover;
 }
 
-.detail-modal .project-detail:nth-of-type(3) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_3.jpg");
+.detail-modal .project-detail:nth-last-of-type(3) .project-bg {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_3.jpg?v20210502");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
        background-size: cover;
 }
 
-.detail-modal .project-detail:nth-of-type(4) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_4.jpg");
+.detail-modal .project-detail:nth-last-of-type(4) .project-bg {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_4.jpg?v20210502");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
        background-size: cover;
 }
 
-.detail-modal .project-detail:nth-of-type(5) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_5.jpg");
+.detail-modal .project-detail:nth-last-of-type(5) .project-bg {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_5.jpg?v20210502");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
        background-size: cover;
 }
 
-.detail-modal .project-detail:nth-of-type(6) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_6.jpg");
+.detail-modal .project-detail:nth-last-of-type(6) .project-bg {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_6.jpg?v20210502");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
        background-size: cover;
 }
 
-.detail-modal .project-detail:nth-of-type(7) .project-bg {
-  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_7.jpg");
+.detail-modal .project-detail:nth-last-of-type(7) .project-bg {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_7.jpg?v20210502");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+       background-size: cover;
+}
+
+.detail-modal .project-detail:nth-last-of-type(8) .project-bg {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_8.jpg?v20210502");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+       background-size: cover;
+}
+
+.detail-modal .project-detail:nth-last-of-type(9) .project-bg {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_9.jpg?v20210502");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+       background-size: cover;
+}
+
+.detail-modal .project-detail:nth-last-of-type(10) .project-bg {
+  background-image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_10.jpg?v20210502");
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -6956,6 +6977,9 @@ a:hover, a:active, a:focus {
   position: relative;
   color: white;
   width: 58rem;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 3rem;
   font-weight: bold;
   display: inline-block;
@@ -6974,6 +6998,7 @@ a:hover, a:active, a:focus {
 .detail-modal .project-detail .project-bg .bg-tit span {
   display: block;
   text-transform: uppercase;
+  word-break: keep-all;
 }
 
 .detail-modal .project-detail .project-bg .bg-tit span.top-txt {
@@ -7032,34 +7057,54 @@ a:hover, a:active, a:focus {
   margin-bottom: 2.5rem;
 }
 
-.detail-modal .project-summary .summary-list li {
+.detail-modal .project-summary .summary-list dl {
   width: 25%;
   float: left;
 }
 
 @media all and (max-width: 1140px) {
-  .detail-modal .project-summary .summary-list li {
+  .detail-modal .project-summary .summary-list dl {
     width: 50%;
   }
-  .detail-modal .project-summary .summary-list li:nth-of-type(n+3) {
+  .detail-modal .project-summary .summary-list dl:nth-of-type(n+3) {
     margin-top: 1rem;
   }
 }
 
-.detail-modal .project-summary .summary-list li strong {
+.detail-modal .project-summary .summary-list dl dt {
   display: inline-block;
   width: 80%;
   font-size: .9rem;
-  color: #000;
+  color: rgba(119, 119, 119, 0.6);
   padding-bottom: .8rem;
-  border-bottom: 3px solid black;
-  margin-bottom: .8rem;
 }
 
-.detail-modal .project-summary .summary-list li p {
+.detail-modal .project-summary .summary-list dl dd {
+  position: relative;
+  padding-left: .666rem;
   font-size: .9rem;
-  color: #666;
+  color: #111;
   line-height: 1.5rem;
+}
+
+.detail-modal .project-summary .summary-list dl dd::before {
+  content: '';
+  position: absolute;
+  top: .72rem;
+  left: 0;
+  width: .16rem;
+  height: .16rem;
+  background-color: #111;
+}
+
+.detail-modal .project-summary .summary-list.col3 dl {
+  width: 33.33%;
+}
+
+@media all and (max-width: 1140px) {
+  .detail-modal .project-summary .summary-list.col3 dl {
+    width: 50%;
+  }
 }
 
 .detail-modal .project-summary .summary-list::after {

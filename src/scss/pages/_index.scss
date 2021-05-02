@@ -200,30 +200,31 @@
 			@media all and (max-width: 1610px) {
 				width: 100%;
 			}
-			li {
+			dl {
 				opacity: 0;
 				width: 33.33%;
 				padding-right: 1.5rem;
 				float: left;
 				-webkit-box-sizing: border-box;
 				box-sizing: border-box;
-				.h-bar {
-					display: inline-block;
-					width: 2rem;
-					height: 1px;
-					background-color: #000;
-					vertical-align: middle;
-					margin-right: .5rem;
-				}
-				em {
+				dt {
 					display: inline-block;
 					font-size: 1rem;
 					font-style: normal;
 					font-weight: 600;
 					color: #000;
 					vertical-align: middle;
+					&::before {
+						content: '';
+						display: inline-block;
+						width: 2rem;
+						height: 1px;
+						background-color: #000;
+						vertical-align: middle;
+						margin-right: .5rem;
+					}
 				}
-				p {
+				dd {
 					font-size: .8rem;
 					font-weight: 300;
 					color: #333;
@@ -286,18 +287,25 @@
 						cursor: pointer;
             width: 100%;
             height: 300px;
+						border: 1px solid #ddd;
+						box-sizing: border-box;
 						background: {
 							position: center center;
 							repeat: no-repeat;
 							size: cover;
 						}
-            @for $i from 1 through 7 {
+            @for $i from 1 through 10 {
              &.list-#{$i} {
                background: {
                  image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/list_#{$i}.jpg");
                };
              }
             }
+						@media all and (max-width: 700px) {
+							&.list-10 {
+								background-size: contain;
+							}
+						}
           }
           @media all and (max-width: 700px) {
             transition: all .5s;
@@ -465,6 +473,7 @@
 			text-align: center;
 			color: #fff;
 			width: 33.33%;
+			line-height: 1.7rem;
 		}
 	}
 	//닫기버튼
@@ -501,11 +510,11 @@
 		width: 100%;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
-		@for $i from 1 through 7 {
-			&:nth-of-type(#{$i}) {
+		@for $i from 1 through 10 {
+			&:nth-last-of-type(#{$i}) {
 				.project-bg {
 					background: {
-						image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_#{$i}.jpg");
+						image: url("https://storage.googleapis.com/portfolio-e5c1c.appspot.com/detail_#{$i}.jpg?v20210502");
 						position: center center;
 						repeat: no-repeat;
 						size: cover;
@@ -523,11 +532,12 @@
 				position: center center;
 				repeat: no-repeat;
 				size: cover;
-			};
+			}
 			.bg-tit {
 				position: relative;
 				color: white;
 				width: 58rem;
+				box-sizing: border-box;
 				font-size: 3rem;
 				font-weight: bold;
 				display: inline-block;
@@ -541,6 +551,7 @@
 				span {
 					display: block;
 					text-transform: uppercase;
+					word-break: keep-all;
 					&.top-txt {
 						text-align: left;
 					}
@@ -591,7 +602,7 @@
 			margin-bottom: 2.5rem;
 		}
 		.summary-list {
-			li {
+			dl {
 				width: 25%;
 				float: left;
 				@media all and (max-width: 1140px) {
@@ -600,19 +611,34 @@
 						margin-top: 1rem;
 					}
 				}
-				strong {
+				dt {
 					display: inline-block;
 					width: 80%;
 					font-size: .9rem;
-					color: #000;
+					color: rgba(119, 119, 119, 0.6);
 					padding-bottom: .8rem;
-					border-bottom: 3px solid black;
-					margin-bottom: .8rem;
 				}
-				p {
+				dd {
+					position: relative;
+					padding-left: .666rem;
 					font-size: .9rem;
-					color: #666;
+					color: #111;
 					line-height: 1.5rem;
+					&::before {
+						content: '';
+						position: absolute;
+						top: .72rem;
+						left: 0;
+						width: .16rem;
+						height: .16rem;
+						background-color: #111;
+					}
+				}
+			}
+			&.col3 dl {
+				width: 33.33%;
+				@media all and (max-width: 1140px) {
+					width: 50%;
 				}
 			}
 			@include clearfix;

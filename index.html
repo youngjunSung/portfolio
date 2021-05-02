@@ -4,11 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="apple-touch-icon" sizes="76x76" href="./src/images/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./src/images/favicon/favicon-16x16.png">
-	<link rel="manifest" href="./src/images/favicon/site.webmanifest">
-	<link rel="mask-icon" href="./src/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="apple-touch-icon" sizes="76x76" href="./dist/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./dist/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./dist/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./dist/img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="./dist/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 	<meta name="description" content="made in april 2021">
@@ -19,11 +19,11 @@
 	<meta property="og:title" content="PORTFOLIO"/>
 	<meta property="og:description" content="made in april 2021"/>
 	<meta property="og:image"
-				content="https://firebasestorage.googleapis.com/v0/b/portfolio-e5c1c.appspot.com/o/og_img.png?alt=media&token=e37b849f-9f1f-4215-b98d-b5559d914a79"/>
+				content="https://storage.googleapis.com/portfolio-e5c1c.appspot.com/og_img.png"/>
 	<meta name="twitter:card" content="summary"/>
 	<meta name="google-site-verification" content="7fFgnXi7Ib4qsKGlolEu3a5ODEwGBxi-UhDSBUNpqCY" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css">
-	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="./dist/css/index.css">
 	<title>PORTFOLIO by Y.jun</title>
 </head>
 <body>
@@ -37,7 +37,7 @@
 		</div>
 		<!--메인 헤더-->
 		<header class="hd">
-			<h1><a href="index.html" class="logo">Portfolio <span>by Y.jun</span></a></h1>
+			<h1><a href="index.html" class="logo">Portfolio <span>by syjun</span></a></h1>
 			<ul class="contact">
 				<li><span class="active">Works</span></li>
 				<li><span>Capability</span></li>
@@ -50,31 +50,532 @@
 				<ul class="swiper-wrapper">
 					<!--워크리스트-->
 					<li class="swiper-slide">
-						@@include('./work_list.html')
+						<section class="swiper-wrap">
+  <h2 class="blind">Works</h2>
+  <div class="swiper-container swiper-main animated delay-03s faster fadeInUp">
+    <ul class="swiper-wrapper">
+      <li class="swiper-slide">
+        <div class="thumbnail-box list-10"></div>
+        <h3 class="project-title">티몬 서비스 마크업</h3>
+        <span>#UI Component 운영/개발</span>
+      </li>
+      <li class="swiper-slide">
+        <div class="thumbnail-box list-9"></div>
+        <h3 class="project-title">제페토 스튜디오</h3>
+        <span>#반응형웹(PC,태블릿)</span>
+      </li>
+      <li class="swiper-slide">
+        <div class="thumbnail-box list-8"></div>
+        <h3 class="project-title">네이버 디자인 콜로키움</h3>
+        <span>#반응형웹</span>
+      </li>
+      <li class="swiper-slide">
+        <div class="thumbnail-box list-7"></div>
+        <h3 class="project-title">콘딜 플랫폼 브랜드 사이트 프로젝트</h3>
+        <span>#반응형웹</span>
+        <span>#Vue</span>
+        <span>#다국어</span>
+      </li>
+      <li class="swiper-slide">
+        <div class="thumbnail-box list-6"></div>
+        <h3 class="project-title">콘텐츠 딜 거래소 프로젝트</h3>
+        <span>#PC버전</span>
+        <span>#Vue</span>
+      </li>
+      <li class="swiper-slide">
+        <div class="thumbnail-box list-5"></div>
+        <h3 class="project-title">콘텐츠 딜 거래소 프로젝트</h3>
+        <span>#MOBILE버전</span>
+      </li>
+      <li class="swiper-slide">
+        <div class="thumbnail-box list-4"></div>
+        <h3 class="project-title">스타페이 PG 서비스 프로젝트</h3>
+        <span>#반응형웹</span>
+        <span>#Semantic UI</span>
+      </li>
+      <li class="swiper-slide">
+        <div class="thumbnail-box list-3"></div>
+        <h3 class="project-title">스타코인 홈페이지 리뉴얼</h3>
+        <span>#반응형웹</span>
+      </li>
+      <li class="swiper-slide">
+        <div class="thumbnail-box list-2"></div>
+        <h3 class="project-title">롯데시네마 온라인 광고 가이드 제작</h3>
+        <span>#PC버전</span>
+        <span>#100%하드코딩</span>
+      </li>
+      <li class="swiper-slide">
+        <div class="thumbnail-box list-1"></div>
+        <h3 class="project-title">F1 플랫폼 브랜드 사이트 런칭</h3>
+        <span>#반응형웹</span>
+        <span>#템플릿커스텀</span>
+      </li>
+    </ul>
+  </div>
+</section>
 					</li>
 					<!--역량-->
 					<li class="swiper-slide">
-						@@include('./capability.html')
+						<section class="swiper-wrap">
+  <h2 class="blind">Capability</h2>
+  <div class="about-list">
+    <dl class="animated delay-03s faster">
+      <dt>기술</dt>
+      <dd>W3C 웹표준 규격 기반으로 웹 접근성을 고려한 시멘틱 마크업</dd>
+      <dd>CSS 전처리기 SASS 사용 - import, 변수, 믹스인, 조건문, 반복문</dd>
+      <dd>빌드 자동화 툴 gulp 사용 - SASS 컴파일, sourcemaps, spritesmith</dd>
+      <dd>분산 버전 관리 시스템 git 사용 - Github, Gitlab, Bitbucket</dd>
+      <dd>Javascript 활용 - 변수, 배열, 조건문, 반복문, 함수 등 기본 문법</dd>
+    </dl>
+    <dl class="animated delay-06s faster">
+      <dt>경험</dt>
+      <dd>Pull Resquest를 이용한 동료 간 코드 리뷰</dd>
+      <dd>gulp-file-include와 scss 활용한 UI Component 운영/개발</dd>
+      <dd>디자이너와는 Zeplin, 기획/개발자와는 BTS를 통한 협업</dd>
+      <dd>다양한 협업툴 사용 - Jira, Confluence, Slack .. </dd>
+      <dd>반응형 웹, 다국어 서비스 웹 프로젝트 작업 경험</dd>
+    </dl>
+    <dl class="animated delay-09s faster">
+      <dt>성향</dt>
+      <dd>정확한 커뮤니케이션과 유연한 협업 능력</dd>
+      <dd>지식공유를 좋아하고 배운 지식의 활용하여 향상되는 업무 능률</dd>
+      <dd>새로운 기술 및 트렌드에 관심이 많고, 이를 학습하고 적용하기를 즐김</dd>
+      <dd>동료와 함께 배움과 공유를 통해서 같이 성장을 도모</dd>
+      <dd>팀과 함께 성장하며 주된 스킬 이외의 기술요소에도 관심을 갖고 도전</dd>
+    </dl>
+  </div>
+</section>
 					</li>
 					<!--어바웃-->
 					<li class="swiper-slide">
-						@@include('./contact.html')
+						<section class="swiper-wrap contact-wrap">
+  <h2 class="blind">Contact</h2>
+  <form class="contact-form animated delay-06s faster" method="post" action="https://formspree.io/xknjvklr" id="main_contact_form">
+    <!--<p><i class="envelope icon"></i></p>-->
+    <div class="form-inner">
+      <div class="row">
+        <div class="field">
+          <input type="text" id="name" required><label class="input-label" for="name">Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="field">
+          <input type="email" id="email" required><label class="input-label" for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="field">
+          <textarea id="msg" style="resize: none;" required></textarea>
+          <label for="msg" class="input-label">Message</label>
+        </div>
+      </div>
+      <div class="row">
+        <button class="send-btn" type="submit">Send</button>
+      </div>
+    </div>
+  </form>
+</section>
 					</li>
 				</ul>
 			</div>
 		</main>
+		<!--프로젝트 상세 팝업-->
+		<article class="detail-modal">
+  <!--디테일 로고-->
+  <div class="detail-logo">
+    <span>P</span>
+    <span>O</span>
+    <span>R</span>
+    <span>T</span>
+    <span>F</span>
+    <span>O</span>
+    <span>L</span>
+    <span>I</span>
+    <span>O</span>
+  </div>
+  <h2 class="blind">work detail</h2>
+  <!--닫기 버튼-->
+  <button type="button" aria-label="닫기" class="close-btn"></button>
+  <!--스와이퍼 컨테이너-->
+  <div class="swiper-container swiper-project">
+    <ul class="swiper-wrapper">
+      <!--프로젝트 디테일 리스트-->
+      <li class="swiper-slide project-detail">
+        <div class="project-bg">
+          <h3 class="bg-tit">
+            <span class="top-txt" style="color: #f27935;">티몬 서비스 마크업 개발</span>
+          </h3>
+        </div>
+        <div class="project-summary">
+          <div class="summary-list col3">
+            <dl>
+              <dt>소속</dt>
+              <dd>프론트개발팀</dd>
+              <dd>2020. 04 ~ 재직 중</dd>
+            </dl>
+            <dl>
+              <dt>개발 환경</dt>
+              <dd>macOS, windows</dd>
+              <dd>VScode, Git</dd>
+              <dd>Jira, Confluence, Bitbucket</dd>
+            </dl>
+            <dl>
+              <dt>진행 업무</dt>
+              <dd>티몬 서비스 마크업 개발</dd>
+              <dd>Confluence Wiki를 이용한 업무 이슈 문서화</dd>
+              <dd>신규 입사자 교육 프로세스 구축 및 운영</dd>
+            </dl>
+          </div>
+          <a class="link-btn" href="https://www.tmon.co.kr/" target="_blank">Visit Website</a>
+        </div>
+        <div class="project-view">
+          <em class="detail-tit">Overview</em>
+          <img class="overview-img" src="https://storage.googleapis.com/portfolio-e5c1c.appspot.com/overview_10.png" alt="">
+        </div>
+      </li>
+      <li class="swiper-slide project-detail">
+        <div class="project-bg">
+          <h3 class="bg-tit">
+            <span class="top-txt" style="color: #fff;">제페토 스튜디오</span>
+          </h3>
+        </div>
+        <div class="project-summary">
+          <div class="summary-list col3">
+            <dl>
+              <dt>프로젝트 기간</dt>
+              <dd>2019. 12 ~ 2020. 02</dd>
+            </dl>
+            <dl>
+              <dt>사이트 특징</dt>
+              <dd>반응형웹</dd>
+              <dd>다국어 지원</dd>
+              <dd>SPA(React.js)</dd>
+            </dl>
+            <dl>
+              <dt>담당업무</dt>
+              <dd>모든 페이지 퍼블리싱</dd>
+            </dl>
+          </div>
+          <a class="link-btn" href="https://studio.zepeto.me/kr" target="_blank">Visit Website</a>
+        </div>
+        <div class="project-view">
+          <em class="detail-tit">Overview</em>
+          <img class="overview-img" src="https://storage.googleapis.com/portfolio-e5c1c.appspot.com/overview_9.png" alt="">
+        </div>
+      </li>
+      <li class="swiper-slide project-detail">
+        <div class="project-bg">
+          <h3 class="bg-tit">
+            <span class="top-txt" style="color: #00D564;">네이버 디자인 콜로키움</span>
+          </h3>
+        </div>
+        <div class="project-summary">
+          <div class="summary-list col3">
+            <dl>
+              <dt>프로젝트 기간</dt>
+              <dd>2019. 10</dd>
+            </dl>
+            <dl>
+              <dt>사이트 특징</dt>
+              <dd>반응형웹</dd>
+            </dl>
+            <dl>
+              <dt>담당업무</dt>
+              <dd>기존 페이지 리뉴얼</dd>
+            </dl>
+          </div>
+          <a class="link-btn" href="https://campaign.naver.com/design-colloquium2019/" target="_blank">Visit Website</a>
+        </div>
+        <div class="project-view">
+          <em class="detail-tit">Overview</em>
+          <img class="overview-img" src="https://storage.googleapis.com/portfolio-e5c1c.appspot.com/overview_8.png" alt="">
+        </div>
+      </li>
+      <li class="swiper-slide project-detail">
+        <div class="project-bg">
+          <h3 class="bg-tit">
+            <span class="top-txt" style="color: lavender;">CONDEAL PLATFORM</span>
+            <span class="btm-txt">브랜드 사이트 구축</span>
+          </h3>
+        </div>
+        <div class="project-summary">
+          <div class="summary-list">
+            <dl>
+              <dt>프로젝트 기간</dt>
+              <dd>2018. 10 ~ 2018. 11</dd>
+            </dl>
+            <dl>
+              <dt>사이트 특징</dt>
+              <dd>반응형웹</dd>
+              <dd>다국어 지원</dd>
+              <dd>SPA(Vue.js)</dd>
+            </dl>
+            <dl>
+              <dt>크로스브라우징</dt>
+              <dd>IE 10 +</dd>
+              <dd>Chrome</dd>
+              <dd>Firefox</dd>
+              <dd>Safari</dd>
+            </dl>
+            <dl>
+              <dt>담당업무</dt>
+              <dd>퍼블리싱</dd>
+              <dd>메인페이지 (CONTENTSDEAL)</dd>
+              <dd>서브페이지 (TEAM, PARTNER)</dd>
+            </dl>
+          </div>
+          <a class="link-btn" href="https://condeal-mo-82768.firebaseapp.com/intro/" target="_blank">Visit Website</a>
+        </div>
+        <div class="project-view">
+          <em class="detail-tit">Overview</em>
+          <img class="overview-img" src="https://storage.googleapis.com/portfolio-e5c1c.appspot.com/overview_1.png" alt="">
+        </div>
+      </li>
+      <li class="swiper-slide project-detail">
+        <div class="project-bg">
+          <h3 class="bg-tit">
+            <span class="top-txt" style="color: crimson;">CONTENTSDEAL</span>
+            <span class="btm-txt">거래소 사이트 구축(PC)</span>
+          </h3>
+        </div>
+        <div class="project-summary">
+          <div class="summary-list">
+            <dl>
+              <dt>프로젝트 기간</dt>
+              <dd>2018. 11 ~ 2019. 01</dd>
+            </dl>
+            <dl>
+              <dt>사이트 특징</dt>
+              <dd>PC웹</dd>
+              <dd>스토어</dd>
+              <dd>웹거래소</dd>
+              <dd>SPA(Vue.js)</dd>
+            </dl>
+            <dl>
+              <dt>크로스브라우징</dt>
+              <dd>IE 10 +</dd>
+              <dd>Chrome</dd>
+              <dd>Firefox</dd>
+              <dd>Safari</dd>
+            </dl>
+            <dl>
+              <dt>담당업무</dt>
+              <dd>모든 페이지 퍼블리싱</dd>
+            </dl>
+          </div>
+          <a class="link-btn" href="https://condeal-mo-82768.firebaseapp.com/pc/" target="_blank">Visit Website</a>
+        </div>
+        <div class="project-view">
+          <em class="detail-tit">Overview</em>
+          <img class="overview-img" src="https://storage.googleapis.com/portfolio-e5c1c.appspot.com/overview_2.png" alt="">
+        </div>
+      </li>
+      <li class="swiper-slide project-detail">
+        <div class="project-bg">
+          <h3 class="bg-tit">
+            <span class="top-txt" style="color: deeppink;">CONTENTSDEAL</span>
+            <span class="btm-txt">거래소 사이트 구축(MO)</span>
+          </h3>
+        </div>
+        <div class="project-summary">
+          <div class="summary-list">
+            <dl>
+              <dt>프로젝트 기간</dt>
+              <dd>2018. 12 ~ 2019. 01</dd>
+            </dl>
+            <dl>
+              <dt>사이트 특징</dt>
+              <dd>모바일웹</dd>
+              <dd>스토어</dd>
+              <dd>웹거래소</dd>
+            </dl>
+            <dl>
+              <dt>크로스브라우징</dt>
+              <dd>IE 10 +</dd>
+              <dd>Chrome</dd>
+              <dd>Firefox</dd>
+              <dd>Safari</dd>
+            </dl>
+            <dl>
+              <dt>담당업무</dt>
+              <dd>모든 페이지 퍼블리싱</dd>
+            </dl>
+          </div>
+          <a class="link-btn" href="https://condeal-mo-82768.firebaseapp.com/mo/" target="_blank">Visit Website</a>
+        </div>
+        <div class="project-view">
+          <em class="detail-tit">Overview</em>
+          <img class="overview-img" src="https://storage.googleapis.com/portfolio-e5c1c.appspot.com/overview_3.png" alt="">
+        </div>
+      </li>
+      <li class="swiper-slide project-detail">
+        <div class="project-bg">
+          <h3 class="bg-tit">
+            <span class="top-txt" style="color: blanchedalmond;">BLOCK CHAIN PAYMENT</span>
+            <span class="btm-txt">스타페이 사이트 구축</span>
+          </h3>
+        </div>
+        <div class="project-summary">
+          <div class="summary-list">
+            <dl>
+              <dt>프로젝트 기간</dt>
+              <dd>2018. 05 ~ 2019. 07</dd>
+            </dl>
+            <dl>
+              <dt>사이트 특징</dt>
+              <dd>반응형웹</dd>
+              <dd>다국어</dd>
+            </dl>
+            <dl>
+              <dt>크로스브라우징</dt>
+              <dd>IE 10 +</dd>
+              <dd>Chrome</dd>
+              <dd>Firefox</dd>
+              <dd>Safari</dd>
+            </dl>
+            <dl>
+              <dt>담당업무</dt>
+              <dd>서브 페이지 퍼블리싱</dd>
+              <dd>회원가입, 충천하기, 환급신청</dd>
+              <dd>사이트 유지보수</dd>
+            </dl>
+          </div>
+          <a class="link-btn" href="https://www.starpay.tv/" target="_blank">Visit Website</a>
+        </div>
+        <div class="project-view">
+          <em class="detail-tit">Overview</em>
+          <img class="overview-img" src="https://storage.googleapis.com/portfolio-e5c1c.appspot.com/overview_4.png" alt="">
+        </div>
+      </li>
+      <li class="swiper-slide project-detail">
+        <div class="project-bg">
+          <h3 class="bg-tit">
+            <span class="top-txt" style="color: darkturquoise;">Blockchain x Ent</span>
+            <span class="btm-txt">스타KST 리뉴얼</span>
+          </h3>
+        </div>
+        <div class="project-summary">
+          <div class="summary-list">
+            <dl>
+              <dt>프로젝트 기간</dt>
+              <dd>2018. 06</dd>
+              <dd>2018. 07. 30 정식 배포(메인)</dd>
+            </dl>
+            <dl>
+              <dt>사이트 특징</dt>
+              <dd>반응형웹</dd>
+              <dd>다국어</dd>
+            </dl>
+            <dl>
+              <dt>크로스브라우징</dt>
+              <dd>IE 10 +</dd>
+              <dd>Chrome</dd>
+              <dd>Firefox</dd>
+              <dd>Safari</dd>
+            </dl>
+            <dl>
+              <dt>담당업무</dt>
+              <dd>메인 페이지 리뉴얼</dd>
+              <dd>사이트 유지보수</dd>
+            </dl>
+          </div>
+          <a class="link-btn" href="https://www.starcoin.tv/" target="_blank">Visit Website</a>
+        </div>
+        <div class="project-view">
+          <em class="detail-tit">Overview</em>
+          <img class="overview-img" src="https://storage.googleapis.com/portfolio-e5c1c.appspot.com/overview_5.png" alt="">
+        </div>
+      </li>
+      <li class="swiper-slide project-detail">
+        <div class="project-bg">
+          <h3 class="bg-tit">
+            <span class="top-txt" style="color: red;">Lotte cinema</span>
+            <span class="btm-txt">온라인 광고 가이드</span>
+          </h3>
+        </div>
+        <div class="project-summary">
+          <div class="summary-list">
+            <dl>
+              <dt>프로젝트 기간</dt>
+              <dd>2017. 11 ~ 2017. 12</dd>
+              <dd>2017. 12. 11 정식 배포</dd>
+            </dl>
+            <dl>
+              <dt>사이트 특징</dt>
+              <dd>PC웹</dd>
+              <dd>100% 하드코딩</dd>
+            </dl>
+            <dl>
+              <dt>크로스브라우징</dt>
+              <dd>IE 9 +</dd>
+              <dd>Chrome</dd>
+              <dd>Firefox</dd>
+            </dl>
+            <dl>
+              <dt>담당업무</dt>
+              <dd>모든 페이지 퍼블리싱</dd>
+            </dl>
+          </div>
+          <a class="link-btn" href="http://lottecinemaguide.feeldmc.com/" target="_blank">Visit Website</a>
+        </div>
+        <div class="project-view">
+          <em class="detail-tit">Overview</em>
+          <img class="overview-img" src="https://storage.googleapis.com/portfolio-e5c1c.appspot.com/overview_7.png" alt="">
+        </div>
+      </li>
+      <li class="swiper-slide project-detail">
+        <div class="project-bg">
+          <h3 class="bg-tit">
+            <span class="top-txt" style="color: blanchedalmond;">f1 ad plarform</span>
+            <span class="btm-txt">브랜드 사이트 구축</span>
+          </h3>
+        </div>
+        <div class="project-summary">
+          <div class="summary-list">
+            <dl>
+              <dt>프로젝트 기간</dt>
+              <dd>2018. 01 ~ 2018. 02</dd>
+              <dd>2018. 02. 19 정식 배포</dd>
+            </dl>
+            <dl>
+              <dt>사이트 특징</dt>
+              <dd>반응형웹</dd>
+              <dd>템플릿 커스텀</dd>
+            </dl>
+            <dl>
+              <dt>크로스브라우징</dt>
+              <dd>IE 9 +</dd>
+              <dd>Chrome</dd>
+              <dd>Firefox</dd>
+            </dl>
+            <dl>
+              <dt>담당업무</dt>
+              <dd>모든 페이지 퍼블리싱</dd>
+            </dl>
+          </div>
+          <a class="link-btn" href="http://f1dmc.com/" target="_blank">Visit Website</a>
+        </div>
+        <div class="project-view">
+          <em class="detail-tit">Overview</em>
+          <img class="overview-img" src="https://storage.googleapis.com/portfolio-e5c1c.appspot.com/overview_6.png" alt="">
+        </div>
+      </li>
+    </ul>
+    <!---이동버튼 -->
+    <div class="swiper-button-prev"><i class="icon angle left"></i> Prev Project</div>
+    <div class="swiper-button-next">Next Project <i class="icon angle right"></i></div>
+  </div>
+</article>
 		<!--메인 푸터-->
 		<footer class="ft">
-			<span>Copyright © 2021 Y.jun, Inc.</span>
+			<span>Copyright © 2021 Sung Young Jun. Inc.</span>
 		</footer>
 
-		<!--프로젝트 상세 팝업-->
-		@@include('./project_detail.html')
 	</div>
 <!--플러그인/페이지 스크립트-->
-<script src="./src/js/vender/jquery-2.2.4.min.js"></script>
-<script src="./src/js/vender/semantic.2.2.11.min.js"></script>
-<script src="./src/js/vender/swiper.min.js"></script>
-<script src="./src/js/pages/index.min.js"></script>
+<script src="./dist/js/vender/jquery-2.2.4.min.js"></script>
+<script src="./dist/js/vender/semantic.2.2.11.min.js"></script>
+<script src="./dist/js/vender/swiper.min.js"></script>
+<script src="./dist/js/pages/index.js"></script>
 </body>
 </html>

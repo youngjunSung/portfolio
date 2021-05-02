@@ -79,7 +79,7 @@ gulp.task('fileinclude', function(done) {
             prefix: '@@',
             basepath: 'src/html/include/'
         }))
-    .pipe(gulp.dest('./dist/html'));
+    .pipe(gulp.dest('./'));
     done();
 });
 

@@ -48,9 +48,9 @@ $(function () {
 			$('.swiper-main').removeClass('fadeInUp').addClass('fadeOutRight');
 		}
 		if (secSwiper.activeIndex == 1) {
-			$('.about-list > li').removeClass('fadeOutRight').addClass('fadeInRight');
+			$('.about-list > dl').removeClass('fadeOutRight').addClass('fadeInRight');
 		} else {
-			$('.about-list > li').removeClass('fadeInRight').addClass('fadeOutRight');
+			$('.about-list > dl').removeClass('fadeInRight').addClass('fadeOutRight');
 		}
 		if (secSwiper.activeIndex == 2) {
 			$('.contact-form').removeClass('fadeOutRight').addClass('zoomIn');
